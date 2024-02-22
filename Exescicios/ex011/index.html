@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Imagens</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+        <p>Tente abrir essas imagens em vários dispositivos ou aumente e diminua o tamanho do navegador.</p>
+
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/img-p.png" type="image/png">
+            <source media="(max-width: 1000px)" srcset="imagens/img-m.png" type="image/png">
+            <img src="imagens/img-g.png" alt="imagem flexivel">
+        </picture>
+    <h1>Reproduzindo audio</h1>
+        <p>Aprendendo a reproduzir audio</p>
+        <audio preload="none" controls>
+            <source src="media/hispp.mp3" type="audio/mpeg">
+        </audio>
+    <h2>Reproduzindo video</h2>
+        <p>Abaixo, um video</p>
+        <video src="video/video.mp4" poster="imagens/wallhaven-lmk72q.png" width="500" controls preload="metadado"></video>
+
+        <h1>Inserindo videos do yt</h1>
+        <p>Basta importar do próprio Youtube</p>
+
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/q5ODUgCCUcI?si=3Y2L98nN22CZeEkE&amp;controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</html>

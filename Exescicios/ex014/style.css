@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+
+body {
+    p {font: italic lighter 1em Arial ; 
+        text-align: justify;}
+    h1, h2{font: italic normal 1.2em;
+    }
+    margin: auto;
+    width: 400px;
+    text-align: center;
+    
+
+
+
+}
+

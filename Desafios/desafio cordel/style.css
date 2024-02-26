@@ -28,7 +28,9 @@ header>p{
 
 section{
     margin-bottom: 20px;
-    padding: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
     background-color: rgb(0, 0, 0);
     box-shadow: inset 3px 3px 8px rgba(0, 0, 0, 0.151);
     
@@ -57,12 +59,13 @@ section>article>p{
 
 article{
     max-width: 800px;
-    
+    padding-left: 30px;
 }
 
 article#solid{
     background-color: white;
-    padding: 30px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
 }
 
 article>p{
@@ -93,7 +96,7 @@ a{
     text-decoration: none;
 }
 
-a:active{
+a:hover{
     text-decoration: underline;
 }
 

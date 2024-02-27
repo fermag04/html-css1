@@ -68,13 +68,13 @@ section.imagem2{
 
 }
 section>article>p{
+    display: inline-block;
     background-color: rgba(0, 0, 0, 0.26);
     color: white;
 }
 
 article{
-    max-width: 800px;
-    padding-left: 30px;
+    padding-left: 4vw;
 }
 
 article#solid{
@@ -85,10 +85,11 @@ article#solid{
 
 article>p{
     margin: 0px;
-    margin-top: 80px;
+    margin-top: 5vw;
+    margin-bottom: 5vw;
     padding: 20px;
     font-size: 5vw;
-    line-height: 100px;
+    line-height: 7vw;
     font-family: var(--fonte3);
 }
 
@@ -103,7 +104,7 @@ footer{
 footer>p{
     margin: 0px;
     color: white;
-    font-size: 30px;
+    font-size: 20px;
 }
 
 a{
